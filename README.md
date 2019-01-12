@@ -12,4 +12,5 @@ con un setup inicial a mano (no incluido en la pagina).
 3. Modificar el [application.properties](src/main/resources/application.properties) para apuntar a la base
 4. Agregar [config de logback](src/main/resources/logback.xml) para mejorar el output
 5. Agregar [primer script](src/main/resources/db/migration/V1__init.sql) de migracion (usando version)
+6. Agregar scripts adicionales de migraciones
    
