@@ -2,7 +2,7 @@
 
 (Text on this project is mostly in spanish)
 
-Ejemplo basado en la documentacion de [esta pagina](https://www.baeldung.com/database-migrations-with-flyway)
+Ejemplo basado en la documentacion de [esta pagina](https://www.callicoder.com/spring-boot-flyway-database-migration-example/)
 con un setup inicial a mano (no incluido en la pagina).
 
 #### Pasos seguidos
@@ -11,4 +11,5 @@ con un setup inicial a mano (no incluido en la pagina).
 2. Crear el compose para una base postgres contenida
 3. Modificar el [application.properties](src/main/resources/application.properties) para apuntar a la base
 4. Agregar [config de logback](src/main/resources/logback.xml) para mejorar el output
+5. Agregar [primer script](src/main/resources/db/migration/V1__init.sql) de migracion (usando version)
    
